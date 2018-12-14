@@ -2769,7 +2769,7 @@
 		}
 
 		header.major {
-			background-color: #e4e4e4;
+			/* background-color: #e4e4e4; */
 			margin: 0 0 4rem 0;
 			text-align: center;
 		}
@@ -3595,9 +3595,9 @@
 /* Main */
 
 	#main {
-		background-color: #e4e4e4;
+		/* background-color: #e4e4e4; */
 		/*background-color: rgba(0,0,0,0);*/
-		position: relative;
+		/* position: relative; */
 		margin: 0 auto;
 		width: calc(100% - 4rem);
 		max-width: 59rem;
@@ -3609,12 +3609,15 @@
 			padding: 0rem 6rem 0rem 6rem ;
 			/*border-top: solid 2px #eeeeee;*/
 			margin: 0;
+			/* background-color: #e4e4e4; */
+			/* box-shadow: 0px 0px 100px #36393c; */
 		}
 
 			#main > *:first-child {
 				border-top: 0;
+				/* background-color: #e4e4e4; */
+				/* box-shadow: 0px 0px 100px #36393c; */
 			}
-
 		#main > footer {
 			text-align: center;
 		}
@@ -4568,14 +4571,17 @@
 
 .wrapper-bg{
 	/*position:fixed;*/
-  	/*left: 0;*/
-	  background: -webkit-linear-gradient(left top,#af7e99,#a2799d,#89729d,#737aac,#7873a8); /* Safari 5.1 - 6.0 */
-			background: -o-linear-gradient(bottom right,#af7e99,#a2799d,#89729d,#737aac,#7873a8); /* Opera 11.1 - 12.0 */
-			background: -moz-linear-gradient(bottom right,#af7e99,#a2799d,#89729d,#737aac,#7873a8); /* Firefox 3.6 - 15 */
-			background: linear-gradient(to bottom right,#af7e99,#a2799d,#89729d,#737aac,#7873a8); /* 标准的语法 */
-	background-repeat:no-repeat; 
+		/*left: 0;*/
+		/*
+	  background: -webkit-linear-gradient(left top,#af7e99,#a2799d,#89729d,#737aac,#7873a8); 
+			background: -o-linear-gradient(bottom right,#af7e99,#a2799d,#89729d,#737aac,#7873a8); 
+			background: -moz-linear-gradient(bottom right,#af7e99,#a2799d,#89729d,#737aac,#7873a8); 
+			background: linear-gradient(to bottom right,#af7e99,#a2799d,#89729d,#737aac,#7873a8); 
+	*/
+			/* background-repeat:no-repeat;  */
 	/*background-image:url(../../images/re-bg1.png); */
 	/*background-image:url(../img/background-ori.png);*/
+	background-color: #e5e5e5;
 	width:100%; 
 	height:100%; 
 	z-index:-999; 
