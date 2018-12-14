@@ -11,6 +11,36 @@
 	<!-- MA5 Slider -->
 	<link href="assets/css/ma5slider.min.css" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" href="assets/css/aos.css" />
+	<style>
+		.content{
+			padding-top: 3rem !important;
+			margin-bottom: 100vh !important;
+		}
+		.bg_content{
+			position: absolute;
+			left: 0;
+			height: 100vh;
+			background: yellow;
+			width: 100%;
+			transform: translateY(-100vh);
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: 50% 100vh; 
+			background-attachment: fixed;
+		}
+		.bg_content1{
+			background-image: url('./assets/img/1.jpg');
+		}
+		.bg_content2{
+			background-image: url('./assets/img/2.jpg');
+		}
+		.bg_content3{
+			background-image: url('./assets/img/3.jpg');
+		}
+		.news{
+			padding-top: 2rem;
+		}
+	</style>
 </head>
 <body class="is-loading">
 	<!-- Wrapper -->
@@ -38,32 +68,34 @@
 				</ul>
 			</nav>
 			<!-- Main -->
-			<div id="index_1" sclass="main-wrapper" style=" padding-top: 5rem;">
-				<div id="main" style="box-shadow: 0px 0px 100px #36393c; position:relative;">
-					<br>
-					<header class="major">
-						<span><img src="assets/img/logo-fortxt.png" width="378px;" style="margin: 0 3px 0 3px;"></span>
-							<p>
-								 　　习近平总书记在党的十九大报告中指出，加强应用基础研究，<br>
-								 拓展实施国家重大科技项目，突出关键共性技术、前沿引领技术、<br>
-								 现代工程技术、颠覆性技术创新，为建设“数字中国”等提供有力支撑。<br>
-								  由此铺开的数字中国宏伟蓝图，将大大拓展信息通信技术应用空间。<br>
-								  信息通信业应找准自身定位，在支撑数字中国建设中实现自己的新使命。
-							</p>
-					</header>
-					<div class="content" style="width:100%;">
+			<div id="index_1" sclass="main-wrapper" style=" padding-top: 3rem;">
+				<div id="main">
+					<div class="content">
+						<header class="major">
+							<span><img src="assets/img/logo-fortxt.png" width="378px;" style="margin: 0 3px 0 3px;"></span>
+								<p>
+										　　习近平总书记在党的十九大报告中指出，加强应用基础研究，<br>
+										拓展实施国家重大科技项目，突出关键共性技术、前沿引领技术、<br>
+										现代工程技术、颠覆性技术创新，为建设“数字中国”等提供有力支撑。<br>
+										由此铺开的数字中国宏伟蓝图，将大大拓展信息通信技术应用空间。<br>
+										信息通信业应找准自身定位，在支撑数字中国建设中实现自己的新使命。
+								</p>
+						</header>
 						<div id="content-sec3"class="aos-item" data-aos="slide-left">  
 							<img class="aos-item img-responsive" data-aos="slide-left" src="assets/img/ari-1.png" width="100%"/>  
 							<div id="content-sec3-adjust"  style="top: 20%; left: 50%;">  
-								<h2 class="title">数字中国是国家信息化升级版 </h2>  
-								<p class="title-sub-line hidden-sm hidden-xs">
-									什么是数字中国？专家认为，狭义上的数字中国指的是以整个中国作为对象的数字地球技术体系，
-									但党的十九大报告中的数字中国是更加广义的概念，是中国的国家信息化范畴，“宽带中国”
-									“互联网+”“大数据”“云计算”等都是数字中国的内容。
-								</p>  
-								<!--<p class="title-more">查看更多 <img src="resources/images/homepage/right.png" /> </p>  -->
+									<h2 class="title">数字中国是国家信息化升级版 </h2>  
+									<p class="title-sub-line hidden-sm hidden-xs">
+										什么是数字中国？专家认为，狭义上的数字中国指的是以整个中国作为对象的数字地球技术体系，
+										但党的十九大报告中的数字中国是更加广义的概念，是中国的国家信息化范畴，“宽带中国”
+										“互联网+”“大数据”“云计算”等都是数字中国的内容。
+									</p>  
+									<!--<p class="title-more">查看更多 <img src="resources/images/homepage/right.png" /> </p>  -->
 							</div>  
 						</div>
+					</div>
+					<div class="bg_content bg_content1"></div>
+					<div class="content">
 						<div id="content-sec3" class="aos-item" data-aos="slide-right">  
 							<img class="aos-item img-responsive" data-aos="slide-right" src="assets/img/ari-2.png"width="100%" />  
 							<div id="content-sec3-adjust" style=" top: 0; right: 50%;">  
@@ -80,7 +112,6 @@
 							<img class="aos-item img-responsive" data-aos="slide-left" src="assets/img/ari-4.png" width="100%"/>  
 							<div id="content-sec3-adjust" style="top: 10%; left: 50%;"> 
 								<h2 class="title" id="index_2">数字福建 </h2>  
-								
 								<p class="title-sub-line hidden-sm hidden-xs"> 
 									时至今日，“数字福建”的建设使福建人民的生活与数字化密切交织在一起，
 									大大推进了福建的经济社会发展。然而，它只是数字中国建设的一部分。
@@ -93,6 +124,9 @@
 								<video class="aos-item" data-aos="zoom-out-right" data-aos-duration="1500"controls="" id="vid" style=" margin:50px 0 20px 0;" name="media"><source src="CHINA_info.mp4" type="video/mp4"></video>
 							</div> 
 						</div>
+						</div>
+						<div class="bg_content bg_content2"></div>
+					<div class="content">
 						<div id="content-sec3" class="aos-item" data-aos="slide-right">  
 							<img class="aos-item img-responsive" data-aos="slide-right" src="assets/img/ari-3.png" width="100%"/>  
 							<div id="content-sec3-adjust" style=" top: 20%; right: 50%;">  
@@ -136,9 +170,10 @@
 								</p>
 								<!--<p class="title-more">查看更多<img src="resources/images/homepage/right.png" /> </p>  -->
 							</div>
-							<div id="index_3"></div>
 						</div>
-					</div><br><br>
+					</div>
+					<div class="bg_content bg_content3"></div>
+					<div id="index_3"></div>
 					
 					<div class="text-left">
 						<div class="news">
