@@ -20,13 +20,18 @@
 			position: absolute;
 			left: 0;
 			height: 100vh;
-			background: yellow;
 			width: 100%;
 			transform: translateY(-100vh);
 			background-repeat: no-repeat;
 			background-size: cover;
 			background-position: 50% 100vh; 
 			background-attachment: fixed;
+		}
+		@media screen and (max-width:750px){
+			.bg_content{
+				background-position: initial;
+				background-attachment: initial;
+			}
 		}
 		.bg_content1{
 			background-image: url('./assets/img/1.jpg');
